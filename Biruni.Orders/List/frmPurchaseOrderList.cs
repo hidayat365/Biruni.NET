@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Biruni.FE
+namespace Biruni.Orders.List
 {
-    public partial class Form1 : Form
+    public partial class frmPurchaseOrderList : Biruni.Shared.Templates.frmList
     {
-        public Form1()
+        public frmPurchaseOrderList()
         {
             InitializeComponent();
         }

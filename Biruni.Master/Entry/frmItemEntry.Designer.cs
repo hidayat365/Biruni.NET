@@ -1,6 +1,6 @@
-﻿namespace Biruni.Shared.Templates
+﻿namespace Biruni.Master.Entry
 {
-    partial class frmBrowse
+    partial class frmItemEntry
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "frmBrowse";
         }
 
         #endregion

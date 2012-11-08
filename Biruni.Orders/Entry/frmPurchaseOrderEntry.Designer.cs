@@ -1,6 +1,6 @@
-﻿namespace Biruni.FE
+﻿namespace Biruni.Orders.Entry
 {
-    partial class Form1
+    partial class frmPurchaseOrderEntry
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
         }
 
         #endregion
     }
 }
-
