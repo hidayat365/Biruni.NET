@@ -28,7 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTitle)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.Size = new System.Drawing.Size(96, 19);
+            this.lblTitle.Text = "Item Entry";
+            // 
+            // frmItemEntry
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.ClientSize = new System.Drawing.Size(624, 362);
+            this.Name = "frmItemEntry";
+            this.Text = "Item Entry";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTitle)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion

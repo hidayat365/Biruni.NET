@@ -14,5 +14,16 @@ namespace Biruni.Shared.Templates
         {
             InitializeComponent();
         }
+
+        protected override void OnActivated(EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            base.OnActivated(e);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

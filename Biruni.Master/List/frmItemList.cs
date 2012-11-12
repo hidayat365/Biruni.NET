@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Biruni.Master.Entry;
 
 namespace Biruni.Master.List
 {
@@ -13,6 +14,12 @@ namespace Biruni.Master.List
         public frmItemList()
         {
             InitializeComponent();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            Form fx = new frmItemEntry();
+            fx.ShowDialog();
         }
     }
 }
