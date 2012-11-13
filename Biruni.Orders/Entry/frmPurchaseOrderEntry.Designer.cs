@@ -32,15 +32,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.picTitle)).BeginInit();
             this.SuspendLayout();
             // 
+            // panel1
+            // 
+            this.panel1.Size = new System.Drawing.Size(634, 77);
+            // 
             // lblTitle
             // 
             this.lblTitle.Size = new System.Drawing.Size(182, 19);
             this.lblTitle.Text = "Purchase Order Entry";
             // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(547, 44);
+            // 
             // frmPurchaseOrderEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(624, 362);
+            this.ClientSize = new System.Drawing.Size(634, 452);
             this.Name = "frmPurchaseOrderEntry";
             this.Text = "Purchase Order Entry";
             this.panel1.ResumeLayout(false);

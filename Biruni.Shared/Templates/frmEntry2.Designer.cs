@@ -37,6 +37,7 @@
             this.btnAdd = new C1.Win.C1Input.C1Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.c1FlexGrid1 = new C1.Win.C1FlexGrid.C1FlexGrid();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picTitle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1FlexGrid1)).BeginInit();
@@ -53,7 +54,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(624, 77);
+            this.panel1.Size = new System.Drawing.Size(634, 77);
             this.panel1.TabIndex = 2;
             // 
             // btnPrint
@@ -80,7 +81,7 @@
             // btnClose
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.Location = new System.Drawing.Point(537, 44);
+            this.btnClose.Location = new System.Drawing.Point(547, 44);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 27);
             this.btnClose.TabIndex = 6;
@@ -113,30 +114,39 @@
             // 
             // panel2
             // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 262);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 77);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(624, 100);
+            this.panel2.Size = new System.Drawing.Size(634, 94);
             this.panel2.TabIndex = 3;
             // 
             // c1FlexGrid1
             // 
             this.c1FlexGrid1.ColumnInfo = "10,1,0,0,0,100,Columns:";
             this.c1FlexGrid1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.c1FlexGrid1.Location = new System.Drawing.Point(0, 77);
+            this.c1FlexGrid1.Location = new System.Drawing.Point(0, 171);
             this.c1FlexGrid1.Name = "c1FlexGrid1";
             this.c1FlexGrid1.Rows.DefaultSize = 20;
-            this.c1FlexGrid1.Size = new System.Drawing.Size(624, 185);
+            this.c1FlexGrid1.Size = new System.Drawing.Size(634, 181);
             this.c1FlexGrid1.StyleInfo = resources.GetString("c1FlexGrid1.StyleInfo");
             this.c1FlexGrid1.TabIndex = 4;
             this.c1FlexGrid1.VisualStyle = C1.Win.C1FlexGrid.VisualStyle.Office2007Blue;
+            // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 352);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(634, 100);
+            this.panel3.TabIndex = 5;
             // 
             // frmEntry2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 362);
+            this.ClientSize = new System.Drawing.Size(634, 452);
             this.Controls.Add(this.c1FlexGrid1);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
@@ -166,5 +176,6 @@
         private System.Windows.Forms.Panel panel2;
         private C1.Win.C1FlexGrid.C1FlexGrid c1FlexGrid1;
         protected C1.Win.C1Input.C1Button btnPrint;
+        private System.Windows.Forms.Panel panel3;
     }
 }
