@@ -1,11 +1,11 @@
 Biruni.NET
 ==========
-Desktop Based ERP Application
+Desktop Based ERP Application<br>
 Currently - 2012/11/13 - this is only skeleton code for my fun project. 
 
 
 ## Components
-This project uses ComponentOne WinForms 2011v3
+This project uses ComponentOne WinForms 2011v3<br>
 Please get your own license for this component
 
 
@@ -16,7 +16,7 @@ Please get your own license for this component
 - Biruni.Shared, module for shared component
 
 ## Copyright
-Please use this for educational purpose only, no commercial work should derive from this project.
+Please use this for educational purpose only, no commercial work should be derived from this project.
 
 Cheers,<br>
 Nur Hidayat<br>
