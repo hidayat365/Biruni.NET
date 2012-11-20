@@ -61,6 +61,8 @@
             this.btnPrint.TabIndex = 8;
             this.btnPrint.Text = "&Print";
             this.btnPrint.UseVisualStyleBackColor = true;
+            this.btnPrint.VisualStyle = C1.Win.C1Input.VisualStyle.Office2010Black;
+            this.btnPrint.VisualStyleBaseStyle = C1.Win.C1Input.VisualStyle.Office2010Black;
             // 
             // lblTitle
             // 
@@ -81,6 +83,8 @@
             this.btnClose.TabIndex = 6;
             this.btnClose.Text = "&Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.VisualStyle = C1.Win.C1Input.VisualStyle.Office2010Black;
+            this.btnClose.VisualStyleBaseStyle = C1.Win.C1Input.VisualStyle.Office2010Black;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // picTitle
@@ -101,6 +105,8 @@
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "&Save";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.VisualStyle = C1.Win.C1Input.VisualStyle.Office2010Black;
+            this.btnAdd.VisualStyleBaseStyle = C1.Win.C1Input.VisualStyle.Office2010Black;
             // 
             // frmEntry1
             // 

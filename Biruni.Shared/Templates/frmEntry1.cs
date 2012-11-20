@@ -12,6 +12,16 @@ namespace Biruni.Shared.Templates
     {
         public frmEntry1()
         {
+            frmEntry1_Helper(-1);
+        }
+
+        public frmEntry1(int id)
+        {
+            frmEntry1_Helper(id);
+        }
+
+        private void frmEntry1_Helper(int id)
+        {
             InitializeComponent();
         }
 
